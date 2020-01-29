@@ -1,0 +1,11 @@
+def divide(a, b, c):
+    cnt = 0
+    for i in range (a, b+1) :
+        if not (i % c) : cnt +=1
+
+    print ("Divide count is : ", cnt)
+
+a  = int(input("Input A: "))
+b  = int(input("Input B: "))
+c  = int(input("Input C: "))
+divide(a, b, c)

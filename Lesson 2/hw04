@@ -1,0 +1,10 @@
+def my_range(a):
+    i = 0
+    result = []
+    while i < a :
+        result.append(i)
+        i += 1
+    return result
+
+a  = int(input("Input N: "))
+print (list(my_range(a)))

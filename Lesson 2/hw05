@@ -1,0 +1,10 @@
+user = "User01"
+passwd = "Pa$sW0rD"
+
+while True :
+    in_user  = str(input("Input username: "))
+    in_pass  = str(input("Input password: "))
+    if (in_user == user) and (in_pass == passwd) : print ("Password for user:", in_user, "is correct")
+    else :
+        print ("Password for user:", in_user, "is incorrect")
+        print ("Please try again...")
